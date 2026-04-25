@@ -398,10 +398,6 @@ a:visited {
     animation: animateBackground 5s linear infinite;
 }
 
-#background:disabled {
-    animation: none;
-}
-
 @keyframes animateBackground {
     from {
         left: 0;
