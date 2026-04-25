@@ -103,6 +103,17 @@ multiplayer.tick = () => {
 
 async function queryServer(address) {
 
+    return new Promise (async (resolve, reject) => {
+        try {
+    resolve((await fetch("http://"+address.split("ws://")[1]+"/query")).json())
+        } catch (err) {
+            
+        }
+})
+}
+
+async function queryServer2(address) {
+
     return new Promise ((resolve, reject) => {
     const websocket = new WebSocket(address)
 
