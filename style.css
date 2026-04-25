@@ -52,7 +52,7 @@ canvas {
 
 @font-face {
     font-family: Archivo;
-    src: url("assets/fonts/archivo.ttf");
+    src: url("./assets/fonts/archivo.ttf");
 }
 
 @keyframes fadeOut {
