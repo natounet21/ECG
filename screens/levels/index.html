@@ -7,7 +7,7 @@
         <script>
             const bg = document.getElementById("background")
             setInterval(()=>{
-                bg.style.animation = "none"
+                bg.style.animation = config.performance.background?"":"none"
             },1000)
         </script>
     <p id="game-title">level select</p>
