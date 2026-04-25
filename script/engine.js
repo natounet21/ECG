@@ -65,6 +65,7 @@ window.config = {
         particles: true,
         transparency: false,
         fpsLimit: false,
+        background: true,
     },
     gameplay: {
         gore: true,
