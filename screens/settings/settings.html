@@ -16,8 +16,9 @@
         <p id="credits">&#169 2026 - Axolay</p>
         <script>
             const bg = document.getElementById("background")
+            bg.style.animation = window.parent.config.performance.background?"":"none"
             setInterval(()=>{
-                bg.style.animation = config.performance.background?"":"none"
+                bg.style.animation = window.parent.config.performance.background?"":"none"
             },1000)
         </script>
     <script>

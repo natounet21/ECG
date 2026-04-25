@@ -6,8 +6,9 @@
     <div id="background" class="playBg"></div>
         <script>
             const bg = document.getElementById("background")
+            bg.style.animation = window.parent.config.performance.background?"":"none"
             setInterval(()=>{
-                bg.style.animation = config.performance.background?"":"none"
+                bg.style.animation = window.parent.config.performance.background?"":"none"
             },1000)
         </script>
     <p id="game-title">level select</p>

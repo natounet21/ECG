@@ -12,8 +12,9 @@
     <div id="background" class="mpBg"></div>
         <script>
             const bg = document.getElementById("background")
+            bg.style.animation = window.parent.config.performance.background?"":"none"
             setInterval(()=>{
-                bg.style.animation = config.performance.background?"":"none"
+                bg.style.animation = window.parent.config.performance.background?"":"none"
             },1000)
         </script>
 
