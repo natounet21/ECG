@@ -58,6 +58,7 @@ window.world = {
     useReflections: true,
 }
 
+if (localStorage.getItem("config")==null) {
 window.config = {
     performance: {
         shaders: false,
@@ -70,6 +71,9 @@ window.config = {
     gameplay: {
         gore: true,
     }
+}
+} else {
+    window.config = JSON.parse(localStorage.getItem("config"))
 }
 
 window.cheats = {
