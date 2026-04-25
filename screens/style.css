@@ -188,7 +188,7 @@ none:focus {
 
 @font-face {
     font-family: Archivo;
-    src: url('../../assets/fonts/archivo.ttf');
+    src: url('../assets/fonts/archivo.ttf');
 }
 
 #startAudio {
@@ -249,23 +249,23 @@ a:visited {
 }
 
 .settingBg {
-    background-image: url("../../assets/textures/tilesetting.svg");
+    background-image: url("../assets/textures/tilesetting.svg");
 }
 
 .gearBg {
-    background-image: url("../../assets/textures/tilegear.svg");
+    background-image: url("../assets/textures/tilegear.svg");
 }
 
 .mainBg {
-    background-image: url("../../assets/textures/tile.svg");
+    background-image: url("../assets/textures/tile.svg");
 }
 
 .playBg {
-    background-image: url("../../assets/textures/tileplay.svg");
+    background-image: url("../assets/textures/tileplay.svg");
 }
 
 .mpBg {
-    background-image: url("../../assets/textures/tilemp.svg");
+    background-image: url("../assets/textures/tilemp.svg");
 }
 
 #customOptions {
